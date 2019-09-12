@@ -1,0 +1,25 @@
+constructor( public navCtrl: NavController,public dataStore: DataStore,public ngZone: NgZone) {
+	    	this.callResortsList();
+	  }
+
+	  resortsList = [];
+
+	  callResortsList() {
+
+	   var self = this;
+	   var resourceRequest = new WLResourceRequest(
+	      		'http://resortsreservation.mybluemix.net/resortlistings',
+	      		WLResourceRequest.GET
+	   );
+	   resourceRequest.send().then(
+	        function(response) {
+	        	self.ngZone.run(() => {
+	          	self.resortsList = JSON.parse(response.responseText);
+	        });
+	   	  },
+	      function(response) {
+	        	alert('Failure: ' + JSON.stringify(response));
+	      }
+	    );
+
+	}

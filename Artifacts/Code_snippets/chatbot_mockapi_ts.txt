@@ -1,0 +1,12 @@
+var resourceRequest = new WLResourceRequest(
+      'adapters/APIProject/api/entity1',
+      WLResourceRequest.GET
+    );
+    resourceRequest.send().then(
+      function(response) {
+        alert('Success: ' + response.responseText);
+      },
+      function(response) {
+        alert('Failure: ' + JSON.stringify(response));
+      }
+    );

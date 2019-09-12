@@ -1,0 +1,27 @@
+constructor(public navCtrl: NavController, public dataStore: DataStore) {
+	    	this.initLiveUpdate();
+	}
+
+	initLiveUpdate() {
+	    LiveUpdateManager.obtainConfiguration(
+	      {
+	        segmentId: 'all',
+	        useClientCache: true
+	      },
+	      function(configuration) {
+	        // Control a property using live update
+
+	        var myFeature = configuration.features['chatbutton_disable'];
+	        if (myFeature !== undefined) {
+	          (<HTMLElement>(
+	            document.querySelector('[studio-id="landingpage_Image_2667"]')
+	          )).style.visibility = myFeature == true ? 'visible' : 'hidden';
+	        }
+	      },
+	      function(error) {
+	        console.log(
+	          'ObtainConfiguration failed with error: ' + JSON.stringify(error)
+	        );
+	      }
+	    );
+	}

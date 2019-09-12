@@ -1,0 +1,2 @@
+WL.Analytics.log({ resortsPage: 'Invoked' }, 'resortsPage');
+WL.Analytics.send();

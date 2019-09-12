@@ -1,0 +1,10 @@
+feedback() {
+    WLAuthorizationManager.obtainAccessToken().then(
+      function(accessToken) {
+        WL.Analytics.triggerFeedbackMode();
+      },
+      function(error) {
+        alert('Failed to connect to MobileFirst Server');
+      }
+    );
+  }

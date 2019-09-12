@@ -1,0 +1,28 @@
+<h4>Pick a City</h4>
+  	<ion-select [(ngModel)]="cities" (ionChange)="onCitySelect()">
+    <ion-option value="Las_Vegas">Las Vegas</ion-option>
+    <ion-option value="Miami">Miami</ion-option>
+    <ion-option value="Paris">Paris</ion-option>
+    <ion-option value="Cork">Cork</ion-option>
+    <ion-option value="San_Francisco">San Francisco</ion-option>
+    <ion-option value="Barcelona">Barcelona</ion-option>
+  </ion-select>
+
+  <ion-card>
+    <img src="{{weatherData.icon}}" style="width:150px" align="center" />
+    <ion-card-content>
+      <ion-card-title>
+        {{cities}}
+      </ion-card-title>
+      <p>
+        Temperature : {{weatherData.temperature}}
+      </p>
+      <p>
+        Wind : {{weatherData.wind}}
+      </p>
+      <p>
+        visibility : {{weatherData.visibility}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <button ion-button (click)="reserver()">View Resorts</button>

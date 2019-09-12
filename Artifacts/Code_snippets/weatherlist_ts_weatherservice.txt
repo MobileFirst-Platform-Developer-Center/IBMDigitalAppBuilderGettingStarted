@@ -1,0 +1,47 @@
+cities;
+	weatherData = {
+	    weather: '',
+	    temperature: '',
+	    wind: '',
+	    visibility: '',
+	    icon: ''
+	};
+
+	onCitySelect() {
+		this.callWeatherService();
+	}
+
+	callWeatherService() {
+		var self = this;
+		var resourceRequest = new WLResourceRequest(
+		    '/weather',
+		    WLResourceRequest.GET,
+		    {useAPIProxy: true}
+		);
+
+		resourceRequest.setQueryParameter('selectedCity', this.cities);
+		resourceRequest.send().then(
+		  function(response) {
+		     // alert('Success: ' + response.responseText);
+		     self.ngZone.run(() => {
+		       var responseJSON = JSON.parse(response.responseText);
+		       self.weatherData.weather = responseJSON.current_observation.icon;
+		       self.weatherData.temperature =
+		       responseJSON.current_observation.temperature_string;
+		       self.weatherData.wind = responseJSON.current_observation.wind_string;
+		       self.weatherData.visibility =
+		       responseJSON.current_observation.visibility_mi;
+		       self.weatherData.icon = responseJSON.current_observation.icon_url;
+		        });
+		      },
+		      function(response) {
+		        alert('Failure: ' + JSON.stringify(response));
+		      }
+		    );
+	}
+
+	reserver() {
+		    //Import the Resortslistpage for this redirection to work:
+		    //Add: import { ResortslistPage } from '../resortslist/resortslist';
+		    this.navCtrl.push(ResortslistPage);
+	}

@@ -1,0 +1,5 @@
+<ion-buttons end>
+    <button (click)="feedback()" ion-button icon-only>
+      <ion-icon name="hand"></ion-icon>
+    </button>
+  </ion-buttons>

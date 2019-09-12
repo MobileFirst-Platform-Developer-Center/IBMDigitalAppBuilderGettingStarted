@@ -1,0 +1,26 @@
+<ion-content padding text-center id="page-resortslist">
+	  <ion-list>
+	    <ion-item *ngFor="let item of resortsList" style="background:transparent;">
+	      <ion-card>
+		<ion-item text-center>
+		  <h2>{{item.name}}</h2>
+		</ion-item>
+		<img src="{{item.image}}" />
+		<ion-row>
+		  <ion-col>
+		    <button ion-button icon-start clear small>
+		      <ion-icon name="thums-up"></ion-icon>
+		      <div>{{item.likes}}</div>
+		    </button>
+		  </ion-col>
+		  <ion-col>
+		    <button ion-button icon-start clear small>
+		      <ion-icon name="text"></ion-icon>
+		      <div>{{item.cost}}</div>
+		    </button>
+		  </ion-col>
+		</ion-row>
+	      </ion-card>
+	    </ion-item>
+	  </ion-list>
+	</ion-content>
