@@ -14,9 +14,9 @@ With APIProxy, you can invoke any backend microservices by defining the endpoint
 
 	![DAB APIProxy download](../Artifacts/screenshots/dab-apiproxydownload.gif)
 
-2. Deploy the MobileAPIProxy.adapter.
+2. Deploy the MobileAPIProxy.adapter. Set *http://resorts.mybluemix.net/resorts/* as the API Base URL for our tests. Modify it to any microservice endpoint you wish.
 
-	![Deploy APIProxy](../Artifacts/screenshots/dab-apiproxyinstall.gif)
+	![Deploy APIProxy](../Artifacts/screenshots/dab-modresorts-apiproxy-configure.png)
     
 3. Go to "weatherlist" page. Add code to make an API call.
 

@@ -18,18 +18,14 @@ IBM Digital App Builder provides the ability to configure the app to connect and
 	
 	![DAB enable WatsonChat](../Artifacts/screenshots/dab-modresorts-watson-chatbot.gif)
 
-2. Drag and drop Watson Chatbot under AI section to "chatbot" page.
+3. Drag and drop Watson Chatbot under AI section to "chatbot" page.
 
 	![Add WatsonChat](../Artifacts/screenshots/dab-modresorts-watson-chatbot-addingthebot.gif)
     
-3. Watson Chatbot needs a pre-requisite plugin to be added. Go to Settings-> Plugin and Install *cordova-plugin-advancded-http* version 2.0.6.
-
-	![DAB Watson Cordovaplugin](../Artifacts/screenshots/dab-modresorts-watson-chatbot-adding-cordovaplugin.gif)
-
 4. Run the application, navigate to chatbot page. Enter a query for the chatbot to answer. 
 
 	>Note: Chatbot responds based on the queries and answers you have trained it with. Provide more queries and answers to train your AI chatbot.
 
 -----------
 
-Wish to engage directly with your end users? Enable [InApp Feedback](../inapp-feedback) in your application now.
+Wish to engage directly and get feedback from your end users? Enable [InApp Feedback](../inapp-feedback) in your application now.
