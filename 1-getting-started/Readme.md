@@ -103,25 +103,9 @@ You can create a new app by clicking **Create new app** icon from the Builder da
 	
 12. Click "Live Preview" to preview the design so far. Login and click on the images to see the actions fire.
 
+	>Note: To login, enter any string as the username and the same as password. 	For instance, if username is `user`, password must be `user`.
+
 	![DAB preview](../Artifacts/screenshots/dab-modresorts-preview.gif)
 
-13. Export the project. *File -> Export to Code*. Chose an output folder
-
-	![DAB export](../Artifacts/screenshots/dab-modresorts-export.gif)
-
-	
-## Start developing application logic in Code mode
-
-### Open an app
-
-1. Open an application that was exported from Design mode, or previously created in Code mode. Click **Open new app** icon. 
-
-    ![Import](../Artifacts/screenshots/dab-modresorts-import-codemode.png)
-    
-2. Go through the project in code mode. 
-
-	![Code mode](../Artifacts/screenshots/dab-modresorts-codemode.gif)    
-
-----------
-Ready to invoke backend services? Before that , would you like to test your UI and its responsiveness with some Mock API backends?
-We can now proceed to [invoking a Mock API backend](../mock-api)
+-------------
+Want an AI enabled chatbot? Let's add some AI & Cognitive capabilities with [IBM Watson Chat](../2-watson-chatbot)

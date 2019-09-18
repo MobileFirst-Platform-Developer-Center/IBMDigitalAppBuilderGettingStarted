@@ -42,4 +42,4 @@ Let's see how end users are reacting to your new Watson Chatbot addition:
 
 -----------
 
-Ready to publish your application to a wider audience or team for testing? Publish the application binaries to your in-house enterprise application store  - [IBM MFP Application Center](../application-center).
+Ready to publish your application to a wider audience or team for testing? Publish the application binaries to your in-house enterprise application store  - [IBM MFP Application Center](../11-application-center).

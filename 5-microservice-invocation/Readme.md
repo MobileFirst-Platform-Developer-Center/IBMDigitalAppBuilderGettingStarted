@@ -87,4 +87,4 @@ Invoke a backend REST microservice. Obtain the response from the microservice an
   
 -----------  
 Want to invoke microservice backends? Do not want to re-deploy adapters to change endpoints? 
-We can proceed to [invoking a microservice via APIProxy now](../api-proxy)
+We can proceed to [invoking a microservice via APIProxy](../6-api-proxy).

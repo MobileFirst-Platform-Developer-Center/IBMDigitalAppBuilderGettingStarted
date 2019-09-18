@@ -33,4 +33,4 @@ A project created in DAB, already has code snippets that send custom analytics d
 	![DAB custom analytics](../Artifacts/screenshots/dab-modresorts-codemode-customAnalytics-console.gif) 
 
 -------------
-Want an AI enabled chatbot? Let's add some AI & Cognitive capabilities with [IBM Watson Chat](../watson-chatbot)
+Wish to engage directly and get feedback from your end users? Enable [InApp Feedback](../10-inapp-feedback) in your application now.

@@ -33,6 +33,6 @@ Engage your end users with Push notifications. MFP and Digital App Builder power
 -----------
 
 Wish to roll out a feature to a small segment of the customer base? Want to run it for a while and turn it off without pushing an application update?
-Now it's time to perform some A/B testing and feature toggle using [Live Update](../liveupdate) 
+Now it's time to perform some A/B testing and feature toggle using [Live Update](../8-liveupdate) 
 
 

@@ -115,4 +115,4 @@ With APIProxy, you can invoke any backend microservices by defining the endpoint
 
 ---------------
 
-Let us engage with end users via [Push notifications](../push-notifications) now
+Let us engage with end users via [Push notifications](../7-push-notifications) now

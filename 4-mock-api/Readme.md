@@ -14,9 +14,9 @@ Want to test application functionality with Mock REST backends? Wish to quickly 
 
 	![Code mode](../Artifacts/screenshots/dab-modresorts-codemode-MockAPI.gif)    
 
-2. Select "chatbot" page and drag & drop code snippet to make an API call.
+2. Select "resortslist" page and drag & drop code snippet to make an API call.
 
-	![Mock API](../Artifacts/screenshots/dab-modresorts-codemode-MockAPI-invoke.gif)
+	![Mock API](../Artifacts/screenshots/dab-modresorts-resortslist-mockapi.gif)
     
 3. Modify the code snippet to point to the mock API endpoint defined.
 
@@ -35,12 +35,12 @@ Want to test application functionality with Mock REST backends? Wish to quickly 
         alert('Failure: ' + JSON.stringify(response));
       }
     );
-    ```
-    
-   ![Mock API ](../Artifacts/screenshots/dab-modresorts-codemode-MockAPI-preview.gif)
+    ```  
 
-4. Remove the code snippet added. We will keep chatbot ready for some cool AI features.
+4. Do a quick preview or run the application in an emulator or device to see the Mock API endpoint getting invoked.
+
+    ![Mock API ](../Artifacts/screenshots/dab-modresorts-codemode-MockAPI-preview.gif)
 
 -----------  
 
-Proceed to invoke [an actual REST microservice](../microservice-invocation)
+Proceed to invoke [an actual REST microservice](../5-microservice-invocation)

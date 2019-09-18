@@ -68,4 +68,4 @@ The Live Update feature in Mobile Foundation provides a simple way to define and
 	![Liveupdate toggle](../Artifacts/screenshots/dab-modresorts-codemode-enableliveupdate-featuretoggle.gif)
 	
 -------------
-Capturing business analytics and insights is very easy. To see end users' usage patterns within the app, let's capture some [Custom Analytics data](../custom-analytics)
+Capturing business analytics and insights is very easy. To see end users' usage patterns within the app, let's capture some [Custom Analytics data](../9-custom-analytics)
