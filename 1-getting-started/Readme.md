@@ -68,7 +68,7 @@ You can create a new app by clicking **Create new app** icon from the Builder da
 
 6. Give a background image to the home page. 
 
-   >Note: All the images can be downloaded from [DAB modresorts images](https://github.ibm.com/vivinkrishnan/mfp-dab-pot/tree/master/Artifacts/images)	
+   >Note: All the images can be downloaded from [DAB modresorts images](../Artifacts/images)	
    
    From the "Show Controls" option, drag and drop an image control. Chose an image for a logo. Save.
 
