@@ -85,7 +85,7 @@ You can create a new app by clicking **Create new app** icon from the Builder da
       
 8. Back in home page, from the "Controls" option, drag and drop a Login control. From the dropdown list of Security check names, chose "UserLogin".  For "On Login Success" , chose the page "landingpage". If the login validation succeeds, the application flow will automatically navigate to this page. Save.
 	   
-	 >Note: The Security check name dropdown list will be populated only if the MobileFirst server configured earlier has been started and security check adapter has been successfully deployed. Security check adapter can be found in the "Artifacts/Adapters/UserLogin/target" folder  
+	 >Note: The Security check name dropdown list will be populated only if the MobileFirst server configured earlier has been started and security check adapter has been successfully deployed. Security check adapter can be found in the "Artifacts/Adapters/UserLogin/target" folder. Learn how to deploy adapters, [here](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/adapters/creating-adapters/#downloading-or-deploying-adapters-using-mobilefirst-operations-console).  
 	 
 	![DAB login control logo](../Artifacts/screenshots/dab-modresorts-addlogincontrol.gif)
 	  
